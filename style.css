@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #4a4e69;
+}
+
+.nav{
+    padding: 1.5rem;
+    background-color: #2a2b44;
+    background-color: #4a4e69;
+    background-color: #22223b;
+
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+.nav h1{
+    color: white;
+    text-align: center;
+}
+
+.main-section{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    background-color: #4a4e69;
+    gap: 1rem;
+
+    
+}
+
+
+.card-desc{
+    background-color: #2a2b44;
+    color: white;
+    
+    padding: .002rem;
+    border-radius: 1rem;
+}
+
+.card-name{
+    margin: 1rem;
+}
+
+
+
