@@ -4,8 +4,12 @@
     box-sizing: border-box;
 }
 
-body{
+.wrapper{
     background-color: #4a4e69;
+    height: 100vh;
+    width: 100vw;
+    overflow-x: hidden;
+    overflow-y: auto;
 }
 
 .nav{
@@ -30,11 +34,34 @@ body{
 .main-section{
     display: flex;
     justify-content: center;
+    max-width: 95%;
+    margin: 0 auto;
     flex-wrap: wrap;
     background-color: #4a4e69;
-    gap: 1rem;
+    gap: 2rem;
+    margin: 2rem 0;
 
     
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+.git{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.git i {
+    margin: 0px 20px;
+    
+}
+
+.main-section a{
+  
 }
 
 
@@ -42,12 +69,14 @@ body{
     background-color: #2a2b44;
     color: white;
     
-    padding: .002rem;
+    
     border-radius: 1rem;
+    overflow: hidden;
 }
 
 .card-name{
     margin: 1rem;
+    
 }
 
 
